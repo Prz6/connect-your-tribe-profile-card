@@ -1,31 +1,31 @@
-<%- include('./partials/head') %>
+<%- include('./partials/head.ejs') %>
 
 
-<article>
+<body>
 
-  <section>
-      <img src="/assets/hva-pas.jpeg" width="150" height="110">
-  </section>
-             
-                  <header>
 
-                    <h1>Primie Ramlal</h1>
-                    <p>20Y</p>
-                    <P>Frontend Developer</P>
-                    <p>Html/Css</p>
-
-                  </header>
-
-       
-  
-
+  <div class="card">
+      <div class="imgbx">
+          <img src="/assets/hva-pas.jpeg">
+        </div>
+        <div class="content">
+          <div class="details">
+              <h2>Primie Ramlal<br><span>Frontend Developer</span></h2>
+              <div class="data">
+                  <h3>Bio<br><span>Frontend Developer</span></h3>
+                  <h3>Leeftijd<br><span>20</span></h3>
+                  <h3>plaats<br><span>Amsterdam</span></h3>
+              </div>
+              <div class="actionbtn">
+                  <button><li><a href="https://github.com/Prz6">Github</a></li></button>
+                  <button><li><a href="Details.html">Details</a></li></button>
+              </div>
+          </div>
+        </div>
+  </div>
  
-
-      </article>
- 
-
-<%- include('./partials/foot') %>
+</body>
 
 
-
+<%- include('./partials/foot.ejs') %>
 
