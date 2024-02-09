@@ -10,7 +10,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(45deg, #fbda61, #ff5acd);
+  background: linear-gradient(45deg, #646D89, #2F499B);
 }
 
 .card{
@@ -122,7 +122,7 @@ body{
   outline: none;
   font-size: 1em;
   font-weight: 500;
-  background: #ff5f95;
+  background: #6790e9;
   color: #fff;
   cursor: pointer;
 }
